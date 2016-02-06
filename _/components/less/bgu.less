@@ -7,8 +7,8 @@
 @white: 		#ffffff;
 @silver:		#f5f5f5;
 
-@theme-primary: #E2000B;
-@theme-dark: #222;
+@theme-primary: #E2000B; //red
+@theme-dark: #222;			//black
 
 @headlineFontFamily:			"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @bguFontFamily:					Merriweather,Georgia, "Times New Roman", Times, serif;
@@ -74,11 +74,26 @@ ul.dashed > li:before {
   text-indent: 5%;
 }
 
+.navbar {
+	border-right: none;
+	border-left: none;
+	border-radius: 0;
+}
+// Header
+#branding {
+	img {
+		margin: 20px 0 40px 0;
+		max-width: 150px;
+			@media(max-width: 767px) {
+				margin: 20px 0 40px 0;
+				//width: 90%;
+			}
+	}
+}
+
 .head-address {
   display: block;
   color: @red;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -88,9 +103,6 @@ ul.dashed > li:before {
 .head-promo {
   display: block;
   color: @black;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -124,7 +136,7 @@ ul.dashed > li:before {
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    max-width: 320px;
     margin: 0 auto;
 
     .portfolio-box-caption {
@@ -298,19 +310,3 @@ h3 {
 	}
 }
 
-.navbar {
-	border-right: none;
-	border-left: none;
-	border-radius: 0;
-}
-
-#branding {
-	img {
-		margin: 20px 0 40px 0;
-		max-width: 226px;
-			@media(max-width: 767px) {
-				margin: 10px 0 5px 10px;
-				width: 90%;
-			}
-	}
-}

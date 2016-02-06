@@ -51,20 +51,29 @@ ul.dashed > li:before {
   content: "-";
   text-indent: 5%;
 }
+.navbar {
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+#branding img {
+  margin: 20px 0 40px 0;
+  max-width: 150px;
+}
+@media (max-width: 767px) {
+  #branding img {
+    margin: 20px 0 40px 0;
+  }
+}
 .head-address {
   display: block;
   color: #e2000b;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 .head-promo {
   display: block;
   color: #000000;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -87,7 +96,7 @@ ul.dashed > li:before {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 320px;
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
@@ -220,19 +229,4 @@ body {
 .photogrid img {
   margin: 0 0 1px 0;
   cursor: pointer;
-}
-.navbar {
-  border-right: none;
-  border-left: none;
-  border-radius: 0;
-}
-#branding img {
-  margin: 20px 0 40px 0;
-  max-width: 226px;
-}
-@media (max-width: 767px) {
-  #branding img {
-    margin: 10px 0 5px 10px;
-    width: 90%;
-  }
 }

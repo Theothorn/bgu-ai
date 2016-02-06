@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row bguai">
     
-      <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="head-address">
 		Architektur - Immobilien <br /><br />
 		Dipl.-Ing. Birgit Götz-Ullrich <br />
@@ -15,7 +15,7 @@
 		birgit@goetz-ullrich.de
 		</div>
       </div>
-    <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
       <div class="head-promo">
 		Ankauf und Verkauf von Immobilien<br />
 		Vermietung<br />
@@ -29,7 +29,7 @@
 		</div>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-      <div class="foot-links pull-right">      
+      <div class="foot-linkkks pull-right">      
 			<section id="branding">
 		<a href="index.php"><img src="images/misc/bgu-ai-150.png" alt="Architektur + Immobilien"></a>
 	</section><!-- branding -->
@@ -43,7 +43,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ai_navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -51,7 +51,7 @@
                 </button>
                 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="ai_navbar">
                 <ul class="nav navbar-nav">
                     			<li><a href="index.php">Home</a></li>	
 			<li><a href="architektur.php">Architektur</a></li>

@@ -25,9 +25,9 @@
     <section class="no-padding" id="portfolio">
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-lg-4 col-sm-4">
-                    <a href="Wohnen_im_ehemaligen_Amtssitz_2014.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai1.jpg" class="img-thumbnail" alt="Wohnen im ehemaligen Amtssitz 2014">
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="architektur.php" class="portfolio-box">
+                        <img src="images/bgu-ai/ai1.jpg" class="img-thumbnail" alt="Architektur">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -37,9 +37,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="Kulturdenkmal.php" class="portfolio-box ">
-                        <img src="images/bgu-ai/ai2.jpg" class="img-thumbnail" alt="Wohnen am Lindenbach 2011 – 2013">
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="verkauf.php" class="portfolio-box ">
+                        <img src="images/bgu-ai/ai2.jpg" class="img-thumbnail" alt="Verkauf">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -49,9 +49,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="Wohneinheiten_Lindental.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai3.jpg" class="img-thumbnail" alt="Wohnen mit Familie und Freunde 2011 – 2013">
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="vermietung.php" class="portfolio-box">
+                        <img src="images/bgu-ai/ai3.jpg" class="img-thumbnail" alt="Vermietung">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -61,9 +61,10 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="Wohneinheiten_Lindental.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai4.jpg" class="img-thumbnail" alt="Wohnen mitten in der Stadt 2010">
+				
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="denkmalpflege.php" class="portfolio-box">
+                        <img src="images/bgu-ai/ai4.jpg" class="img-thumbnail" alt="Denkmalpflege">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -73,9 +74,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="#" class="portfolio-box">
-                        <img src="images/bgu-ai/ai5.jpg" class="img-thumbnail" alt="">
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="referenzen.php" class="portfolio-box">
+                        <img src="images/bgu-ai/ai5.jpg" class="img-thumbnail" alt="Referenzen">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -85,9 +86,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-4">
+                <div class="col-sm-4 col-lg-4 ">
                     <a href="kontaktformular.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai6.jpg" class="img-thumbnail" alt="">
+                        <img src="images/bgu-ai/ai6.jpg" class="img-thumbnail" alt="Kontaktformular">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
