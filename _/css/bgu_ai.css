@@ -1,8 +1,9 @@
 body {
   font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
 }
 hr {
-  border-color: #ab273c;
+  border-color: #e2000b;
   border-width: 3px;
   max-width: 50px;
 }
@@ -18,12 +19,6 @@ h6 {
   font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
   color: #000000;
   margin-top: 0px;
-  padding: 0 2%;
-}
-p {
-  font-size: 1.1em;
-  line-height: 1.2em;
-  color: #000000;
   padding: 0 2%;
 }
 .about {
@@ -61,11 +56,10 @@ ul.dashed > li:before {
   color: #e2000b;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
-  text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.head-head-promo {
+.head-promo {
   display: block;
   color: #000000;
   transition: all 0.2s ease-in-out;
@@ -75,7 +69,7 @@ ul.dashed > li:before {
   padding-bottom: 5px;
 }
 .bg-primary {
-  background-color: #ab273c;
+  background-color: #e2000b;
 }
 .bg-dark {
   background-color: #222222;
@@ -86,26 +80,6 @@ ul.dashed > li:before {
 }
 .no-padding {
   padding: 0;
-}
-.silver {
-  background-color: #f5f5f5;
-  margin-top: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.silver-header h1,
-.silver-header h2,
-.silver-header h3,
-.silver-header h4,
-.silver-header h5,
-.silver-header h6 {
-  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
-  margin-top: 0px;
-  padding: 0 0%;
-  padding-top: 0px;
-  padding-bottom: 30px;
 }
 .portfolio-item p {
   text-align: left;
@@ -120,7 +94,7 @@ ul.dashed > li:before {
   color: #ffffff;
   opacity: 0;
   display: block;
-  background: rgba(171, 39, 60, 0.7);
+  background: rgba(226, 0, 11, 0.8);
   position: absolute;
   bottom: 0;
   text-align: left;
@@ -161,7 +135,7 @@ ul.dashed > li:before {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #ab273c;
+  color: #e2000b;
 }
 .row.no-gutters {
   margin-right: 0;
@@ -223,19 +197,19 @@ body {
 }
 .cpright {
   display: block;
-  color: #ffffff;
+  color: #ccc;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
-  font-size: 0.6em;
-  line-height: 0.6em;
+  font-size: 1em;
   padding: 0 2%;
 }
-.footer {
-  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
-  background: #e2000b;
-  margin-top: 0px;
+.breadcrumb {
   padding-top: 30px;
-  padding-bottom: 15px;
+  background-color: #fff;
+}
+.breadcrumb li a {
+  color: #ccc;
+  font-size: 0.9em;
 }
 .foot-header h3 {
   font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
@@ -251,4 +225,14 @@ body {
   border-right: none;
   border-left: none;
   border-radius: 0;
+}
+#branding img {
+  margin: 20px 0 40px 0;
+  max-width: 226px;
+}
+@media (max-width: 767px) {
+  #branding img {
+    margin: 10px 0 5px 10px;
+    width: 90%;
+  }
 }
